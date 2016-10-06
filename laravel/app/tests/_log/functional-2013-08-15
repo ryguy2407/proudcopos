@@ -1,0 +1,55 @@
+[2013-08-15 00:11:17] StockItemsCest.canCreateStockItems.INFO: am on page "/stock_items/create" [] []
+[2013-08-15 00:11:17] StockItemsCest.canCreateStockItems.INFO: see "Add New Stock Item","h1" [] []
+[2013-08-15 00:11:17] StockItemsCest.canCreateStockItems.INFO: fill field "Barcode","123456789" [] []
+[2013-08-15 00:11:17] StockItemsCest.canCreateStockItems.INFO: fill field "Stock Number","22" [] []
+[2013-08-15 00:11:17] StockItemsCest.canCreateStockItems.INFO: fill field "Stock Description","Apple Iphone" [] []
+[2013-08-15 00:11:17] StockItemsCest.canCreateStockItems.INFO: select option "Listed","No" [] []
+[2013-08-15 00:11:17] StockItemsCest.canCreateStockItems.INFO: select option "Sold","No" [] []
+[2013-08-15 00:11:17] StockItemsCest.canCreateStockItems.INFO: attach file "input[type="file"]","img.jpg" [] []
+[2013-08-15 00:11:17] StockItemsCest.canCreateStockItems.INFO: fill field "Sale Price","100.00" [] []
+[2013-08-15 00:11:17] StockItemsCest.canCreateStockItems.INFO: fill field "Postage Price","10.00" [] []
+[2013-08-15 00:11:17] StockItemsCest.canCreateStockItems.INFO: click "Submit" [] []
+[2013-08-15 00:11:17] StockItemsCest.canCreateStockItems.ALERT: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'codeception_added_auto_submit' in 'field list' (SQL: insert into `stock_items` (`barcode`, `stock_number`, `stock_description`, `listed`, `sold`, `sale_price`, `postage_price`, `codeception_added_auto_submit`, `image`, `updated_at`, `created_at`) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)) (Bindings: array (
+  0 => '123456789',
+  1 => '22',
+  2 => 'Apple Iphone',
+  3 => '1',
+  4 => '1',
+  5 => '100.00',
+  6 => '10.00',
+  7 => '',
+  8 => '/private/var/folders/0b/ql1whf9s72v9tz9wcy902m540000gn/T/2e12f57d5c0bd19135f5cfc162b67a13a6c1194f.jpg',
+  9 => '2013-08-15 00:11:17',
+  10 => '2013-08-15 00:11:17',
+)) [] []
+[2013-08-15 00:11:17] StockItemsCest.canCreateStockItems.INFO: # ERROR # [] []
+[2013-08-15 00:11:17] StockItemsCest.canCreateStockItems.INFO: PASSED [] []
+[2013-08-15 00:11:18] StockItemsCest.canSeeStockItemsInIndexView.INFO: have in database "stock_items",{"barcode":"6543231","stock_number":"654321","stock_description":"Breville juicer","listed":"0","sold":"0","image":"public/uploads/stock_images/img.jpg","sale_price":"20.00","postage_price":"10.00"} [] []
+[2013-08-15 00:11:18] StockItemsCest.canSeeStockItemsInIndexView.INFO: am on page "/stock_items" [] []
+[2013-08-15 00:11:18] StockItemsCest.canSeeStockItemsInIndexView.INFO: see "Stock Number: 654321","h1" [] []
+[2013-08-15 00:11:18] StockItemsCest.canSeeStockItemsInIndexView.INFO: see "Breville juicer","td" [] []
+[2013-08-15 00:11:18] StockItemsCest.canSeeStockItemsInIndexView.INFO: PASSED [] []
+[2013-08-15 00:11:19] transactionTestCest.tryToTest.INFO: PASSED [] []
+[2013-08-15 00:11:19] transactionTestCest.tryToTest.INFO: PASSED [] []
+[2013-08-15 00:11:50] StockItemsCest.canCreateStockItems.INFO: am on page "/stock_items/create" [] []
+[2013-08-15 00:11:50] StockItemsCest.canCreateStockItems.INFO: see "Add New Stock Item","h1" [] []
+[2013-08-15 00:11:50] StockItemsCest.canCreateStockItems.INFO: fill field "Barcode","123456789" [] []
+[2013-08-15 00:11:50] StockItemsCest.canCreateStockItems.INFO: fill field "Stock Number","22" [] []
+[2013-08-15 00:11:50] StockItemsCest.canCreateStockItems.INFO: fill field "Stock Description","Apple Iphone" [] []
+[2013-08-15 00:11:50] StockItemsCest.canCreateStockItems.INFO: select option "Listed","No" [] []
+[2013-08-15 00:11:50] StockItemsCest.canCreateStockItems.INFO: select option "Sold","No" [] []
+[2013-08-15 00:11:50] StockItemsCest.canCreateStockItems.INFO: attach file "input[type="file"]","img.jpg" [] []
+[2013-08-15 00:11:50] StockItemsCest.canCreateStockItems.INFO: fill field "Sale Price","100.00" [] []
+[2013-08-15 00:11:50] StockItemsCest.canCreateStockItems.INFO: fill field "Postage Price","10.00" [] []
+[2013-08-15 00:11:50] StockItemsCest.canCreateStockItems.INFO: click "Submit" [] []
+[2013-08-15 00:11:50] StockItemsCest.canCreateStockItems.INFO: see current url equals "/stock_items" [] []
+[2013-08-15 00:11:50] StockItemsCest.canCreateStockItems.INFO: see "Stock item successfully added",".flash" [] []
+[2013-08-15 00:11:50] StockItemsCest.canCreateStockItems.INFO: see in database "stock_items",{"stock_number":"22"} [] []
+[2013-08-15 00:11:50] StockItemsCest.canCreateStockItems.INFO: PASSED [] []
+[2013-08-15 00:11:51] StockItemsCest.canSeeStockItemsInIndexView.INFO: have in database "stock_items",{"barcode":"6543231","stock_number":"654321","stock_description":"Breville juicer","listed":"0","sold":"0","image":"public/uploads/stock_images/img.jpg","sale_price":"20.00","postage_price":"10.00"} [] []
+[2013-08-15 00:11:51] StockItemsCest.canSeeStockItemsInIndexView.INFO: am on page "/stock_items" [] []
+[2013-08-15 00:11:51] StockItemsCest.canSeeStockItemsInIndexView.INFO: see "Stock Number: 654321","h1" [] []
+[2013-08-15 00:11:51] StockItemsCest.canSeeStockItemsInIndexView.INFO: see "Breville juicer","td" [] []
+[2013-08-15 00:11:51] StockItemsCest.canSeeStockItemsInIndexView.INFO: PASSED [] []
+[2013-08-15 00:11:52] transactionTestCest.tryToTest.INFO: PASSED [] []
+[2013-08-15 00:11:52] transactionTestCest.tryToTest.INFO: PASSED [] []

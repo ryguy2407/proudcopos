@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>ProudCo POS</title>
+  <link href="http://localhost/style.css" rel="stylesheet" type="text/css" media="screen" />
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script>
+  	$(document).ready(function(){
+  		$('#form').keypress(function(e){
+    			if(e.which === 13){
+        		return false;
+    		}
+		});
+  	});
+  </script>
+</head>
+<body>
+ 
+<div class="header">
+	<div class="headerContainer">
+		<div class="logo">
+			<img src="http://localhost/images/logo.png" alt="">
+		</div><!-- end logo -->
+		<div class="search">
+			<form method="POST" action="http://localhost/search" accept-charset="UTF-8"><input name="_token" type="hidden" value="gfscHMh1E2un92RtKjbRdLIxGU6dCxV6nhi2KVHZ">				<p>Search Stock: 
+					<input type="text" name="search">
+					<input type="submit" value="Search">
+				</p>
+			</form>		</div><!-- end search -->
+
+		<div class="nav">
+			<ul>
+				<li><a href="#">Dashboard</a></li>
+				<li><a href="http://localhost/stock_items/create">Add Stock</a></li>
+				<li><a href="#">Sales Reports</a></li>
+				<li><a href="#">Perform Stocktake</a></li>
+			</ul>
+		</div><!-- end nav -->
+	</div><!-- end headerContainer -->
+</div><!-- end header -->
+
+<div class="container">
+	
+	<div class="flash">
+		Stock item successfully added	</div>
+
+
+	<div class="stockEntry">
+		<div class="stockDetails">
+			<h1>Stock Number: 123 - <a href="http://localhost/stock_items/1/edit">Edit Stock</a></h1>
+			<table>
+				<tr>
+					<td>Stock Description:</td>
+					<td>Apple Iphone 16gb</td>
+				</tr>
+				<tr>
+					<td>Listed?:</td>
+					<td>No</td>
+				</tr>
+				<tr>
+					<td>Sold?</td>
+					<td>No</td>
+				</tr>
+				<tr>
+					<td>Sale Price:</td>
+					<td>$20.00</td>
+				</tr>
+				<tr>
+					<td>Postage:</td>
+					<td>$10.00</td>
+				</tr>
+			</table>
+
+			<div class="actions">
+				<a class="buttons">ADD PAYMENT</a>
+			</div><!-- end actions -->
+		</div><!-- end stockDetails -->
+
+		<div class="stockMeta">
+			<img src="http://localhost/images/no-image.jpg" width="200" height="150">
+			<div class="not_listed">
+				<h2>Not Listed</h2>
+			</div><!-- end not_listed -->
+		</div><!-- end stockMeta -->
+	</div><!-- end stockEntry -->
+
+
+	<div class="stockEntry">
+		<div class="stockDetails">
+			<h1>Stock Number: 654321 - <a href="http://localhost/stock_items/2/edit">Edit Stock</a></h1>
+			<table>
+				<tr>
+					<td>Stock Description:</td>
+					<td>Breville juicer</td>
+				</tr>
+				<tr>
+					<td>Listed?:</td>
+					<td>No</td>
+				</tr>
+				<tr>
+					<td>Sold?</td>
+					<td>No</td>
+				</tr>
+				<tr>
+					<td>Sale Price:</td>
+					<td>$20.00</td>
+				</tr>
+				<tr>
+					<td>Postage:</td>
+					<td>$10.00</td>
+				</tr>
+			</table>
+
+			<div class="actions">
+				<a class="buttons">ADD PAYMENT</a>
+			</div><!-- end actions -->
+		</div><!-- end stockDetails -->
+
+		<div class="stockMeta">
+			<img src="http://localhost/images/no-image.jpg" width="200" height="150">
+			<div class="not_listed">
+				<h2>Not Listed</h2>
+			</div><!-- end not_listed -->
+		</div><!-- end stockMeta -->
+	</div><!-- end stockEntry -->
+
+
+	<div class="stockEntry">
+		<div class="stockDetails">
+			<h1>Stock Number: 1234 - <a href="http://localhost/stock_items/3/edit">Edit Stock</a></h1>
+			<table>
+				<tr>
+					<td>Stock Description:</td>
+					<td>Nalgene Water Bottle</td>
+				</tr>
+				<tr>
+					<td>Listed?:</td>
+					<td>No</td>
+				</tr>
+				<tr>
+					<td>Sold?</td>
+					<td>Yes</td>
+				</tr>
+				<tr>
+					<td>Sale Price:</td>
+					<td>$10.00</td>
+				</tr>
+				<tr>
+					<td>Postage:</td>
+					<td>$2.00</td>
+				</tr>
+			</table>
+
+			<div class="actions">
+				<a class="buttons">ADD PAYMENT</a>
+			</div><!-- end actions -->
+		</div><!-- end stockDetails -->
+
+		<div class="stockMeta">
+			<img src="http://localhost/images/no-image.jpg" width="200" height="150">
+			<div class="not_listed">
+				<h2>Not Listed</h2>
+			</div><!-- end not_listed -->
+		</div><!-- end stockMeta -->
+	</div><!-- end stockEntry -->
+
+
+	<div class="stockEntry">
+		<div class="stockDetails">
+			<h1>Stock Number: 1234567 - <a href="http://localhost/stock_items/4/edit">Edit Stock</a></h1>
+			<table>
+				<tr>
+					<td>Stock Description:</td>
+					<td>Apple Iphone 16gb</td>
+				</tr>
+				<tr>
+					<td>Listed?:</td>
+					<td>No</td>
+				</tr>
+				<tr>
+					<td>Sold?</td>
+					<td>No</td>
+				</tr>
+				<tr>
+					<td>Sale Price:</td>
+					<td>$20.00</td>
+				</tr>
+				<tr>
+					<td>Postage:</td>
+					<td>$10.00</td>
+				</tr>
+			</table>
+
+			<div class="actions">
+				<a class="buttons">ADD PAYMENT</a>
+			</div><!-- end actions -->
+		</div><!-- end stockDetails -->
+
+		<div class="stockMeta">
+			<img src="http://localhost/images/no-image.jpg" width="200" height="150">
+			<div class="not_listed">
+				<h2>Not Listed</h2>
+			</div><!-- end not_listed -->
+		</div><!-- end stockMeta -->
+	</div><!-- end stockEntry -->
+
+
+	<div class="stockEntry">
+		<div class="stockDetails">
+			<h1>Stock Number: 654321 - <a href="http://localhost/stock_items/5/edit">Edit Stock</a></h1>
+			<table>
+				<tr>
+					<td>Stock Description:</td>
+					<td>Breville juicer</td>
+				</tr>
+				<tr>
+					<td>Listed?:</td>
+					<td>No</td>
+				</tr>
+				<tr>
+					<td>Sold?</td>
+					<td>No</td>
+				</tr>
+				<tr>
+					<td>Sale Price:</td>
+					<td>$20.00</td>
+				</tr>
+				<tr>
+					<td>Postage:</td>
+					<td>$10.00</td>
+				</tr>
+			</table>
+
+			<div class="actions">
+				<a class="buttons">ADD PAYMENT</a>
+			</div><!-- end actions -->
+		</div><!-- end stockDetails -->
+
+		<div class="stockMeta">
+			<img src="http://localhost/images/no-image.jpg" width="200" height="150">
+			<div class="not_listed">
+				<h2>Not Listed</h2>
+			</div><!-- end not_listed -->
+		</div><!-- end stockMeta -->
+	</div><!-- end stockEntry -->
+
+</div><!-- end stockContainer -->
+ 
+</body>
+</html>

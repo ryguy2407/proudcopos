@@ -1,0 +1,3 @@
+#!/bin/bash
+export PHP_FCGI_MAX_REQUESTS=500
+exec /usr/local/cpanel/cgi-sys/php5
